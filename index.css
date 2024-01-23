@@ -59,6 +59,14 @@ body{
     background: none;
 }
 
+.header__icon--text{
+    display: flex;
+}
+
+.header__icon--text p{
+    margin-right: 10px;
+}
+
 .header__icon:first-child{
     margin-left: 0;
 }
@@ -143,6 +151,8 @@ body{
 }
 
 .info_block__button{
+    display: flex;
+    align-items: center;
     margin-left: 16px;
     margin-bottom: 16px;
     padding: 0;
@@ -159,6 +169,13 @@ body{
 
 .info_block__button::before{
     content: url("./image/expand.svg"); 
+    
+}
+
+.info_block__img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 @media (min-width: 768px){

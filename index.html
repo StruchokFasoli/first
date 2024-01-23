@@ -12,7 +12,7 @@
             <header class="header">
                 <div class="header__left_side">
                     <button class="header__icon"><img src="./image/burger.svg" alt=""></button>
-                    <button class="header__icon"><img src="./image/logo.svg" alt=""></button>
+                    <a href="#" class="header__icon"><img src="./image/logo.svg" alt=""></a>
                 </div>
                 <div class="header__middle_side header__middle_side--hiden">
                     <button class="header__icon"><img src="./image/call.svg" alt=""></button>
@@ -24,19 +24,25 @@
                     <button class="header__icon"><img src="./image/repair.svg" alt=""></button>
                 </div>
             </header>
-            
+            <main>
                 <div class="conteiner">
                     <div class="conteiner__tittle">
                         <h1 > Услуги и сервисы</h1>
                         <div class="tittle__support">
-                            Оставить заявку
-                            <button class="header__icon"><img src="./image/repair.svg" alt=""></button>
-                            Статус ремонта
-                            <button class="header__icon"><img src="./image/checkstatus.svg" alt=""></button>
+                            
+                            <button class="header__icon header__icon--text">
+                                <p>Оставить заявку</p>
+                                <img src="./image/repair.svg" alt="">
+                            </button>
+                           
+                            <button class="header__icon header__icon--text">
+                                 <p>Статус ремонта</p>
+                                 <img src="./image/checkstatus.svg" alt="">
+                            </button>
                         </div>
                     </div>
     
-                    
+                    <nav>
                         <ul class="nav">
                             <li ><a href="#" class="nav__link">Ремонтируемые бренды</a></li>
                             <li><a href="#" class="nav__link">Ремонтируемые устройтсва</a></li>
@@ -44,8 +50,8 @@
                             <li><a href="#" class="nav__link">Адреса сервисных центров</a></li>
                             <li><a href="#" class="nav__link">Специальные цены</a></li>
                         </ul>
+                    </nav>
                     
-    
                     <div class="conteiner__info_block">
                         <div class="info_block__left_side">
                             <div class="info_block__text">
@@ -60,11 +66,12 @@
                                     что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
                                 </p>
                             </div>
-                            <button class="info_block__button">Читать далее</button>
+                            <button class="info_block__button"><p>Читать далее</p></button>
                         </div>
                         <img src="./image/office.png" alt="" class="info_block__img">
                     </div>
                 </div>
+            </main>    
         </div>
     </body>
 </html>
