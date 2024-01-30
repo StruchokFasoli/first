@@ -139,7 +139,7 @@ body{
 }
 
 .icon-repair {
-    background: url('/image/repair.svg') right center no-repeat;
+    background: url('./image/repair.svg') right center no-repeat;
 }
 
 .icon-checkstatus {
