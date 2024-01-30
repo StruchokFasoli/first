@@ -91,41 +91,31 @@ body{
     padding: 0;
     border: none;
     background: none;
+    width: 3em;
+    height: 3em;
 }
 
 .burger {
-    width: 3em;
-    height: 3em;
     background: url("./image/burger.svg") center no-repeat;
 }
 
 .call {
-    width: 3em;
-    height: 3em;
     background: url("./image/call.svg") center no-repeat;
 }
 
 .chat {
-    width: 3em;
-    height: 3em;
     background: url("./image/chat.svg") center no-repeat;
 }
 
 .profile {
-    width: 3em;
-    height: 3em;
     background: url("./image/profile.svg") center no-repeat;
 }
 
 .checkstatus {
-    width: 3em;
-    height: 3em;
     background: url("./image/checkstatus.svg") center no-repeat;
 }
 
 .repair {
-    width: 3em;
-    height: 3em;
     background: url("./image/repair.svg") center no-repeat;
 }
 
@@ -133,9 +123,27 @@ body{
     display: flex;
 }
 
-.header__icon--text p{
-    margin-right: 10px;
-    font-weight: 500;
+.button{
+    margin-right: 16px;
+    padding: 0;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.button--icon {
+    align-items: center;
+    padding-right: 50px;
+    min-height: 40px;
+}
+
+.icon-repair {
+    background: url('/image/repair.svg') right center no-repeat;
+}
+
+.icon-checkstatus {
+    background: url("./image/checkstatus.svg") right center no-repeat;
 }
 
 .header__right_side::before{
@@ -154,10 +162,6 @@ body{
 
 .container__title h1{
     font-weight: 700;
-}
-
-.container__title .header__icon{
-    margin: 16px;
 }
 
 .container__title::before{
@@ -213,7 +217,7 @@ body{
     height: 0;
 }
 
-.container__info_block{
+.info_block{
     margin-bottom: 20px;
 }
 
@@ -260,7 +264,7 @@ body{
         width: 50%;
     }
 
-    .container__info_block{
+    .info_block{
         display: flex;
     }
 
